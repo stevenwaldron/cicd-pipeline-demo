@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CICD Pipeline Demo</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    .card {
+      width: min(680px, 88%);
+      padding: 48px;
+      text-align: center;
+      background: #1e293b;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0,0,0,.35);
+    }
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #16a34a;
+      color: white;
+      font-weight: bold;
+    }
+
+    code {
+      display: block;
+      margin-top: 24px;
+      padding: 14px;
+      background: #0f172a;
+      border-radius: 10px;
+      color: #93c5fd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="badge">
+      DEPLOYMENT SUCCESSFUL
+    </div>
+
+    <h1>CICD Pipeline Demo</h1>
+
+    <p>
+      This page was deployed through the AWS CI/CD pipeline.
+    </p>
+
+    <p>
+      Change this message, commit the change, and run the pipeline again
+      to verify automated deployment.
+    </p>
+
+    <code>
+      Version: 1.0.0
+    </code>
+
+  </main>
+
+</body>
+</html>
